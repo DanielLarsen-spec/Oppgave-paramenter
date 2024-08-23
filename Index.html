@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parameter oppgave1</title>
+   <style>
+    body{
+        margin: 1px;
+        padding: 1px;
+    }
+
+
+
+</style>
+</head>
+<body>
+    <h3>Hei og hå!</h3>
+
+<div id="mainDiv">Hello world!</div>
+    
+  <button onclick="knapp('silver',75,100)">Trykk1</button>  
+  <button onclick="knapp('gold',50,200)">Trykk2</button>  
+
+  <script>
+
+    function knapp(color,width,height,text){
+        document.getElementById('mainDiv').style.background = color;
+        document.getElementById('mainDiv').innerHTML = "Og Hallo Norge!";
+        document.getElementById('mainDiv').innerHTML = /*HTML*/`
+        <div style="width: ${width}%; height:${height}%;"></div>
+        `;
+    }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      
+      
+      
+      
+      
+      
+      
+      
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
