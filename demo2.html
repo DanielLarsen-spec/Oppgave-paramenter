@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<h3>Vi endrer teksten</h3>
+<div id="minDiv">Her skal det endres</div>
+<button onclick="knapp('gold',100,100,'Heisann!')">Gold</button>
+<button onclick="knapp('silver',200,200,'Hoppsann!')">Silver</button>
+
+<script>
+function knapp(color,width,height,text){
+let div; 
+let div2;
+document.getElementById('minDiv').innerHTML = /*HTML*/`
+
+<div style="background-color:${color}; width: ${width}px; height: ${height}px;"
+
+
+></div>
+
+`;
+
+}
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</script>
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<h1>Vi tester ut forskjellige måter å endre en side på</h1>
+<div id="minDiv">Endre meg</div>
+<button onclick="knapp('gray',100,80,'hei!')">Test1</button>
+<button onclick="knapp('gold',200,60,'Hallo!')">Test2</button>
+
+
+<script>
+
+let div = document.getElementById("minDiv")
+function knapp(color,width,height,text){
+
+    div.style.background = color;
+    div.style.width = width + 'px'
+    div.style.height = height + 'px'
+    div.innerHTML = text;
+    
+}
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</script>
+
+
+
+
+
+
+
+</body>
+</html>
